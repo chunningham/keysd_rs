@@ -1,3 +1,7 @@
+pub mod items {
+    include!(concat!(env!("OUT_DIR", "/service.rs")));
+}
+
 #[cfg(test)]
 mod tests {
     #[test]

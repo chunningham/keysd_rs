@@ -1,0 +1,3 @@
+[submodule "keys-ext"]
+	path = keys-ext
+	url = https://github.com/keys-pub/keys-ext

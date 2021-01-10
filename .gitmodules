@@ -1,3 +1,6 @@
 [submodule "keys-ext"]
 	path = keys-ext
 	url = https://github.com/keys-pub/keys-ext
+[submodule "protopatch"]
+	path = protopatch
+	url = https://github.com/alta/protopatch

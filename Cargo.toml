@@ -1,6 +1,8 @@
 [package]
 name = "keysd_rs"
 version = "0.1.0"
+description = "gPRC based keysd integration library"
+license = "MIT"
 authors = ["Charles Cunningham <c.a.cunningham6@gmail.com>"]
 edition = "2018"
 

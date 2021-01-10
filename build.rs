@@ -1,9 +1,9 @@
-extern crate prost_build;
-
 fn main() {
-    prost_build::compile_protos(
-        &["keys-ext/service/rpc.proto"],
-        &["keys-ext/", "protopatch/"],
-    )
-    .unwrap();
+    protoc_rust_grpc::Codegen::new()
+        .input("keys-ext/service/rpc.proto")
+        .includes(&["keys-ext/", "protopatch/"])
+        .out_dir("src")
+        .rust_protobuf(true)
+        .run()
+        .expect("protoc_rust_grpc")
 }
